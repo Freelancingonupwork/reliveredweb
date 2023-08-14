@@ -1,0 +1,417 @@
+/*
+Theme Name: Hello-elementor-child
+Author: 
+Description: Your description goes here
+Version: 1.0
+Template: hello-elementor
+
+This is the child theme for Hello Elementor theme, generated with Generate Child Theme plugin by catchthemes.
+
+(optional values you can add: Theme URI, Author URI, License, License URI, Tags, Text Domain)
+*/
+
+
+
+
+/* feature-box */
+.feature-box {
+	position: relative;
+}
+
+.feature-box .feature-number {
+	position: absolute;
+	left: 30%;
+	top: 0;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(56, 110, 239, 0.3);
+	border-radius: 100%;
+}
+
+/* Accordion */
+.convenience-accordion .elementor-accordion .elementor-accordion-item {
+	border-bottom: 1px solid #000000 !important;
+	margin-bottom: 20px;
+}
+
+/* FAQ */
+
+.accordion-faq .elementor-accordion-item {
+	margin-bottom: 15px;
+	display: inline-block;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+
+}
+
+.accordion-faq .elementor-accordion-item:nth-child(odd) {
+	float: left;
+}
+
+.accordion-faq .elementor-accordion-item:nth-child(even) {
+	float: right;
+}
+
+.accordion-faq .elementor-accordion-item .elementor-tab-title {
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.accordion-faq .elementor-accordion-item .elementor-tab-title.elementor-active {
+	background-color: #0677FF;
+}
+
+
+
+/* Video */
+.howto-video .elementor-custom-embed-play i {
+	height: 70px;
+	width: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #FC734B;
+	border-radius: 100%;
+	text-shadow: none;
+	opacity: 1;
+}
+
+/* pricing */
+
+.pricing-price {
+	font-family: 'Sofia Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.pricing-price span {
+	font-weight: 1000;
+	font-size: 110px;
+	line-height: 84px;
+}
+
+.pricing-price span.price-symbol {
+	color: #FC734B;
+}
+
+
+/* Mmodal */
+
+.modal .modal-content .modal-header .btn-close {
+	height: 25px;
+	width: 25px;
+	font-size: 14px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+	background-color: #FC734B;
+	opacity: 1;
+	border: 1px solid #FC734B;
+	border-radius: 0px;
+}
+
+.modal .modal-content .modal-header .modal-title {
+	color: #000000;
+	font-family: "Sofia Sans", Sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+}
+
+.modal .modal-content .modal-body {
+	padding: 25px;
+}
+
+.modal .modal-content .modal-body p {
+	margin-bottom: 0px;
+}
+
+.modal .modal-content .modal-body form.wpcf7-form .form-label {
+	color: #000000;
+	font-family: "Sofia Sans", Sans-serif;
+	font-size: 18px;
+}
+
+.modal .modal-content .modal-body form.wpcf7-form .form-control {
+	border-radius: 0px;
+	border: 1px solid #666;
+}
+
+.modal .modal-content .modal-body form.wpcf7-form input.wpcf7-submit {
+	background-color: #fc734b;
+	color: #fff;
+	font-family: "DM Sans", Sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 400;
+	border: 1px solid #FC734B;
+	text-decoration: none;
+	border-radius: 0px;
+	padding: 12px 30px;
+	margin-bottom: 0px;
+}
+
+.modal .modal-content .modal-body form.wpcf7-form input.wpcf7-submit:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+/* Tab */
+.step-tab .elementor-tab-title {
+	background-color: #0677ff;
+	margin: 0 10px;
+}
+
+.step-tab .elementor-tab-title.elementor-active {
+	background-color: #FC734B;
+}
+
+.step-tab .elementor-tab-content h4 {
+	font-weight: 800;
+}
+
+
+
+
+/*Pricing*/
+
+.pricing-item {
+	padding: 65px 50px 80px 50px;
+    background-color: #0677FF26;
+}
+
+.pricing-item .pricing-title {
+	color: #000000;
+	font-family: "Sofia Sans", Sans-serif;
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 40px;
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+
+.pricing-item .pricing-content {
+	font-family: "DM Sans", Sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	margin-bottom: 30px;
+}
+
+
+.pricing-item .pricing-price {
+	font-family: 'Sofia Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 42px;
+	color: #000000;
+}
+
+.pricing-item .pricing-price span {
+	font-weight: 1000;
+	font-size: 60px;
+	line-height: 84px;
+}
+
+.pricing-item .pricing-price span.price-symbol {
+	color: #FC734B;
+}
+
+
+.pricing-item .pricing-list ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 46px;
+	margin-bottom: 46px;
+}
+
+
+.pricing-item .pricing-list ul li {
+	font-family: "DM Sans", Sans-serif;
+	display: flex;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 30px;
+	color: #000000;
+	margin-bottom: 12px;
+}
+
+.pricing-item .pricing-list ul li i {
+	color: #FC734B;
+	padding-right: 20px;
+	font-size: 24px;
+}
+
+.pricing-item .pricing-btn .btn {
+	background-color: #FC734B;
+	color: #ffffff;
+	font-family: "Sofia Sans", Sans-serif;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 31px;
+	border-radius: 0px 0px 0px 0px;
+	padding: 17px 83px 17px 83px;
+	display: inline-block;
+	transition: all 0.5s ease;
+}
+
+.pricing-item .pricing-btn .btn:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.pricing .pricing-item {
+	 height: 100%;
+    display: grid;
+}
+
+.pricing .pricing-item .pricing-btn {
+	 margin-top: auto;
+}
+
+/* Map */
+.gmap #map {
+	height: 600px;
+}
+
+
+@media (max-width: 767px) {
+
+	.pricing {
+		margin-bottom: 30px;
+
+	}
+
+	.pricing-item .pricing-title {
+		font-size: 24px;
+		line-height: 34px;
+	}
+
+	.pricing-item .pricing-price {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	.pricing-item .pricing-price span {
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+	.pricing-item .pricing-list ul {
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.pricing-item .pricing-list ul li {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.pricing-item .pricing-list ul li i {
+		padding-right: 15px;
+		font-size: 20px;
+	}
+
+	.pricing-item .pricing-btn .btn {
+		font-size: 20px;
+		line-height: 35px;
+		padding: 12px 50px 12px 50px;
+	}
+
+
+}
+
+
+/* responsive */
+
+@media (max-width: 1024px) {
+	.feature-box .feature-number {
+		left: 35%;
+	}
+}
+
+@media (max-width: 991px) {
+	.accordion-faq .elementor-accordion-item {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.accordion-faq .elementor-accordion-item:nth-child(odd) {
+		float: none;
+	}
+
+	.accordion-faq .elementor-accordion-item:nth-child(even) {
+		float: none;
+	}
+
+	.gmap #map {
+		height: 450px;
+	}
+
+	.pricing-item {
+	   	padding: 40px 30px 40px 30px;
+	}
+
+	.pricing-item  .pricing-price span {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+}
+
+@media (max-width: 767px) {
+	.return-process {
+		background-image: none !important;
+	}
+
+	.feature-box .feature-number {
+		left: 40%;
+	}
+
+	.pricing-price {
+		font-size: 28px;
+		line-height: 38px;
+	}
+
+	.pricing-price span {
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+	.step-tab .elementor-tab-title {
+		margin: 0 0;
+		margin-bottom: 10px;
+		padding: 15px 10px !important;
+	}
+
+	.gmap #map {
+		height: 300px;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	.pricing-item {
+	   	padding: 40px 25px 40px 25px;
+	}
+
+	.pricing-item  .pricing-price span {
+		font-size: 40px;
+		line-height: 50px;
+	}
+}
